@@ -238,7 +238,7 @@ export default function HomePage() {
             textAlign: 'center',
           }}
         >
-          GEN I – V · POKEAPI.CO
+          GEN I – V · POKEAPI.CO - <a href="https://www.francescoferri.me" target="_blank">www.francescoferri.me</a>
         </p>
       </div>
 
