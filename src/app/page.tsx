@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 const difficulties = [
   {
@@ -70,19 +71,7 @@ export default function HomePage() {
         {/* Logo / Titolo */}
         {/* 🔧 LOGO: sostituisci questo blocco con <Image src="/logo.png" ... /> */}
         <div className="flex flex-col items-center gap-3 animate-fadeIn">
-          <div
-            className="text-center"
-            style={{
-              fontFamily: '"Press Start 2P", monospace',
-              color: '#CC0000',
-              fontSize: 'clamp(1.4rem, 5vw, 2.2rem)',
-              lineHeight: 1.4,
-              textShadow: '0 0 20px rgba(204,0,0,0.5), 3px 3px 0 #660000',
-              letterSpacing: '-0.02em',
-            }}
-          >
-            POKÉ<br />QUIZ
-          </div>
+          <Image src="/favicon.png" alt="PokéQuiz" width={200} height={100} />
           <p
             className="text-center text-sm"
             style={{ color: '#888', fontFamily: '"DM Sans", sans-serif', letterSpacing: '0.15em' }}
