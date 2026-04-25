@@ -318,7 +318,7 @@ function GameContent() {
           />
 
           <div className="relative p-6 flex flex-col items-center gap-4">
-            {/* Numero Pokédex */}
+            {/* Numero Pokédex 
             <div
               className="self-start"
               style={{
@@ -330,7 +330,7 @@ function GameContent() {
             >
               #{pokemon.number}
             </div>
-
+*/}
             {/* Immagine — nascosta fino al reveal */}
             <div className="relative w-48 h-48 sm:w-56 sm:h-56">
               {!revealed && (
