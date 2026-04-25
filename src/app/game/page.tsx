@@ -316,9 +316,9 @@ function GameContent() {
               backgroundSize: '24px 24px',
             }}
           />
-
+{/*
           <div className="relative p-6 flex flex-col items-center gap-4">
-            {/* Numero Pokédex 
+             Numero Pokédex 
             <div
               className="self-start"
               style={{
